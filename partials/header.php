@@ -32,7 +32,7 @@ https://templatemo.com/tm-590-topic-listing
 
 -->
     </head>
-    <nav class="navbar navbar-expand-lg">
+    <header class="navbar navbar-expand-lg" >
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
                         <i class="bi-back"></i>
@@ -60,4 +60,4 @@ https://templatemo.com/tm-590-topic-listing
                         </div>
                     </div>
                 </div>
-            </nav>
+</header>
