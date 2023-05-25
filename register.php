@@ -1,6 +1,14 @@
 <?php
 include('partials/header.php');
 ?>
+
+<style>
+  .block{
+    width: 100%;
+    height: 103px;
+  }
+  </style>
+
 <main class="d-flex align-items-center justify-content-center">
   <section section class="container mt-3 pb-3" id="contact-form">
     <div class="row">
@@ -8,17 +16,17 @@ include('partials/header.php');
         <h3 class="text-center">Registration</h1>
           <form action="inc/login/register.php" method="post">
             <div class="form-input">
-              <label for="name" class="label">Name</label>
+              <label for="name" class="label">Name</label><br>
               <input type="text" name="user_name" placeholder="Your name" class="input">
               <small class="form-error-feedback"></small>
             </div>
             <div class="form-input">
-              <label for="email" class="label">E-mail</label>
+              <label for="email" class="label">E-mail</label><br>
               <input type="email" name="user_email" placeholder="Your email" class="input">
               <small class="form-error-feedback"></small>
             </div>
             <div class="form-input">
-              <label for="passowrd" class="label">Password</label>
+              <label for="passowrd" class="label">Password</label><br>
               <input type="password" name="user_password" placeholder="Password" class="input">
               <small class="form-error-feedback"></small>
             </div>
@@ -30,6 +38,7 @@ include('partials/header.php');
     </div>
   </section>
 </main>
+<div class="block"></div>
 <?php
 include('partials/footer.php');
 ?>

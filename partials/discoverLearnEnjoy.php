@@ -42,7 +42,7 @@
                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
                                     </div>
 
-                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                    <img src="images/topics/01.png" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
