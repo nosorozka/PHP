@@ -4,7 +4,7 @@ $db =  new Database();
 
 if (isset($_POST['update_category'])) {
   $data = [
-    "id" => $_POST['category_id'],
+    "id" => $_POST['id'],
     "name" => $_POST['name'],
   ];
   try {

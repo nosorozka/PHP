@@ -2,14 +2,18 @@
 require('../config.php');
 $db =  new Database();
 
-if (isset($_POST['insert_category'])) {
+if (isset($_POST['insert_topic'])) {
   $data = [
-    "name" => $_POST['name'],
+    "title" => $_POST['title'],
+    "subtitle" => $_POST['subtitle'],
+    "number" => $_POST['number'],
+    "image" => $_POST['img'],
+    "category_id" => $_POST['category_id'],
   ];
 
 
   try {
-    $sql = "INSERT INTO category (name) VALUES (:name)";
+    $sql = "INSERT INTO browse_topics (title, subtitle, number, image, category_id) VALUES (:title, :subtitle, :number, :image, :category_id)";
     $query_run = $db->conn->prepare($sql);
     $query_run->execute($data);
   } catch (PDOException $e) {

@@ -1,5 +1,4 @@
 <?php
-require("database.php");
 class Category{
     public $db;
     function __construct()

@@ -1,5 +1,4 @@
 <?php
-require("database.php");
 class Question{
     public $db;
     function __construct()

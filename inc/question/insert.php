@@ -10,7 +10,7 @@ if (isset($_POST['insert_question'])) {
 
 
   try {
-    $sql = "INSERT INTO questions (question, answer) VALUES (:question, :anser)";
+    $sql = "INSERT INTO questions (question, answer) VALUES (:question, :answer)";
     $query_run = $db->conn->prepare($sql);
     $query_run->execute($data);
   } catch (PDOException $e) {

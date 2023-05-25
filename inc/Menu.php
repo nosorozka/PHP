@@ -13,7 +13,8 @@
                                   "Browse Topics"=>"#section 2",
                                   "HOW IT WORKS"=>"#section 3",
                                   "FAQS"=>"#section 4",
-                                  "CONTACT"=>"section 5",
+                                  "CONTACT"=>"#section 5",
+                                  "Login" => "login.php",
                         ));
     $BrowseTopics_menu = new Menu(array("Design"=>"design-tab-pane",
                                     "Marketing"=>"marketing-tab-pane",
