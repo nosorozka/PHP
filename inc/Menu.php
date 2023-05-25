@@ -35,10 +35,10 @@
         foreach($menu_items as $id=>$url){
             echo '<li class="nav-item" role="presentation">';
             if($i == 0){
-                echo '<button class="nav-link active" id="'.$id.'" data-bs-toggle="tab" data-bs-target="#'.$url.'" type="button" role="tab" aria-controls="'.$url.'" aria-selected="true">'.$id.'</button>';
+                echo '<button class="nav-link active" id="'.$id.'" data-bs-toggle="tab" data-bs-target="#'.$url.'" type="button" role="tab" aria-controls="'.$url.'" aria-selected="false">'.$id.'</button>';
             }
             else{
-                echo '<button class="nav-link" id="'.$id.'" data-bs-toggle="tab" data-bs-target="#'.$url.'" type="button" role="tab" aria-controls="'.$url.'" aria-selected="false">'.$id.'</button>';
+                echo '<button class="nav-link" id="'.$id.'" data-bs-toggle="tab" data-bs-target="#'.$url.'" type="button" role="tab" aria-controls="'.$url.'" aria-selected="true">'.$id.'</button>';
             }
            
         echo '</li>';
